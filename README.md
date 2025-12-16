@@ -8,11 +8,11 @@ Acer VX5-591G Hackintosh EFI
 | CPU | Intel Core i5-7300HQ|
 | 主板（Motherboard） | KBL Wish_KLS HM175 |
 | 内存（RAM） | 16GB DDR4 2400MHz |
-| 硬盘（Storage） | 东芝SSD、SSD、NVMe固态硬盘<br>Toshiba SSD、SSD、NVMe SSD |
+| 硬盘（Storage） | 东芝 Toshiba SSD、SSD、NVMe固态硬盘 SSD |
 | 显卡（GPU） | Intel HD Graphics 630<br>NVIDIA GTX 1050 |
-| 网卡（Network Card） | Realtek RTL8111 <br>Broadcom BCM4352（更换后的无线网卡） <br>Broadcom BCM4352 (The replaced wireless network card)  |
+| 网卡（Network Card） | Realtek RTL8111 <br>Broadcom BCM4352（更换后的无线网卡）(The replaced wireless network card)  |
 | 声卡（Audio） | Realtek ALC255 |
-| 输入设备（Input Device） | PS/2键盘/触摸板、I2C触摸设备<br>PS/2 Keyboard/Trackpad, I2C Touch Device |
+| 输入设备（Input Device） | PS/2键盘/触摸板、I2C触摸设备 PS/2 Keyboard/Trackpad, I2C Touch Device |
 
 ## ✅ 正常工作（Working Functions）
 - Intel HD Graphics 630
@@ -43,12 +43,18 @@ Acer VX5-591G Hackintosh EFI
 - Realtek有线网卡 Realtek Wired Network Card
 - 显示器音频输出 Display audio output
 
+## 🔄 更新项目说明（Update Project Notes）
+| 说明项（Item） | 详情（Details） |
+|---------------|----------------|
+| 更新触发条件 | 当OpenCore引导程序发布新版本时，本项目将同步进行更新<br>When a new version of the OpenCore bootloader is released, this project will be updated synchronously |
+| 更新内容 | 1. 升级OpenCore引导程序至最新版本<br>Upgrade the OpenCore bootloader to the latest version<br>2. 同步更新各类内核扩展至对应适配的最新版本，保证硬件兼容性与系统稳定性<br>Synchronously update various kernel extensions to the latest corresponding adapted versions to ensure hardware compatibility and system stability |
+
 ## ⚙️ 配置信息（Configuration Info）
 | 项目（Item） | 详情（Details） |
 |-------------|----------------|
 | OC版本（OpenCore Version） | OpenCore 1.0.6 |
 | SMBIOS型号（PlatformInfo） | MacBookPro14,3 |
-| BIOS设置（BIOS Settings） | 安全启动：关闭；CSM：关闭；AHCI：开启<br>Secure Boot: Disabled; CSM: Disabled; AHCI: Enabled |
+| BIOS设置（BIOS Settings） | 安全启动 Secure Boot：关闭 Disabled；CSM：关闭 Disabled ；AHCI：开启 Enabled  |
 | 支持的macOS系统（Supported macOS） | macOS 10.12.4 ~ 26（注：macOS 26 本EFI暂不支持）<br>macOS 10.12.4 ~ 26 (Note: This EFI does not support macOS 26 temporarily) |
 | 最后更新时间（Last Updated） | 2025年12月16日 |
 
