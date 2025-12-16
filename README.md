@@ -46,7 +46,7 @@ Acer VX5-591G Hackintosh EFI
 ## 🔄 更新项目说明（Update Project Notes）
 | 说明项（Item） | 详情（Details） |
 |---------------|----------------|
-| 更新触发条件 | 当OpenCore引导程序发布新版本时，本项目将同步进行更新<br>When a new version of the OpenCore bootloader is released, this project will be updated synchronously |
+| 更新触发条件 | 当OpenCore引导程序发布新版本时，本项目将同步进行更新<br>This project will be updated simultaneously when Minecraft releases a new version (official version). |
 | 更新内容 | 1. 升级OpenCore引导程序至最新版本<br>Upgrade the OpenCore bootloader to the latest version<br>2. 同步更新各类内核扩展至对应适配的最新版本，保证硬件兼容性与系统稳定性<br>Synchronously update various kernel extensions to the latest corresponding adapted versions to ensure hardware compatibility and system stability |
 
 ## ⚙️ 配置信息（Configuration Info）
@@ -113,8 +113,19 @@ Acer VX5-591G Hackintosh EFI
 9. **CPU Frequency Scaling Driver Note**: The CPU frequency modulation related drivers (CPUFriend.kext, CPUFriendDataProvider.kext) in this EFI are empty by default. You need to manually generate and add the corresponding drivers to realize the CPU's dynamic frequency modulation function and improve performance and power consumption.
 
 ## 👥 项目贡献者（Project Contributors）
-- 主维护者（Maintainer）：[[Minecraft-1314](https://github.com/Minecraft-1314)]
-- 测试者（Testers）：黑苹果社区同机型用户<br>Black Hackintosh Community Users with Same Model
+感谢所有为项目付出的朋友，是你们让这个工具更加完善！
+Thank you to all friends who have contributed to the project—you have made this tool more complete!
+
+### 核心维护者 | Core Maintainers
+- [Minecraft-1314](https://github.com/Minecraft-1314)：项目发起者，负责版本同步与仓库维护
+  - [Minecraft-1314](https://github.com/Minecraft-1314): Project initiator, responsible for version synchronization and repository maintenance
+
+### 社区贡献者 | Community Contributors
+- [待补充] | [To be added]
+
+## 📜 许可证 | License
+本项目基于开源许可证分发，具体条款请参阅 [LICENSE](LICENSE) 文件。
+This project is distributed under an open-source license. For specific terms, please refer to the [LICENSE](LICENSE) file.
 
 ## ⭐ 支持项目（Support This Project）
 如果这个EFI帮到了你，**请给项目点一个Star**！这是对我最大的鼓励~<br>
