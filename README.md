@@ -80,10 +80,13 @@ Acer VX5-591G Hackintosh EFI
    - OCLP-MOD：[https://github.com/laobamac/OCLP-Mod](https://github.com/laobamac/OCLP-Mod))
    - USBToolBox：[https://github.com/USBToolBox/tool](https://github.com/USBToolBox/tool)
    - RapidEFI: [https://github.com/topics/rapidefi](https://github.com/topics/rapidefi)
+   - CPUFriend：[https://github.com/corpnewt/CPUFriend](https://github.com/corpnewt/CPUFriend)（CPUFriend.kext及CPUFriendDataProvider.kext官方开源地址）
+   - CPUFriendDataProvider生成工具：[https://github.com/corpnewt/CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend)（辅助生成CPUFriendDataProvider.kext的工具）
 7. **网卡相关说明**：
    - 本项目仅适配更换后的Broadcom/intel无线网卡，设备原装无线网卡在macOS系统下无驱动支持，无法使用Wi-Fi和蓝牙功能。
    - 若不想更换内置无线网卡，可直接使用USB无线网卡，大部分USB网卡在macOS系统下无需额外添加驱动（需要软件）即可正常使用。
 8. **教学资源说明**：关于黑苹果安装、硬件适配、工具使用的详细教学内容，可自行在网上查找相关教程，本项目不提供具体教学服务。
+9. **CPU调频驱动说明**：本EFI中CPU调频相关驱动（CPUFriend.kext、CPUFriendDataProvider.kext）默认为空，需手动生成并添加对应的驱动，以实现CPU的动态调频功能，提升性能与功耗表现。
 
 ### English
 1. **SMBIOS Information**: Please be sure to use the GenSMBIOS tool to generate and manually fill in your own SMBIOS information. The SMBIOS is empty by default. Do not use the default information directly to avoid system compatibility issues.(OCAT can generate this with one click)
@@ -101,10 +104,13 @@ Acer VX5-591G Hackintosh EFI
    - OCLP-MOD：[https://github.com/laobamac/OCLP-Mod](https://github.com/laobamac/OCLP-Mod))
    - USBToolBox: [https://github.com/USBToolBox/tool](https://github.com/USBToolBox/tool)
    - RapidEFI: [https://github.com/JeoJay127/RapidEFI-Tool](https://github.com/JeoJay127/RapidEFI-Tool)
+   - CPUFriend: [https://github.com/corpnewt/CPUFriend](https://github.com/corpnewt/CPUFriend) (Official open source address of CPUFriend.kext and CPUFriendDataProvider.kext)
+   - CPUFriendDataProvider Generator: [https://github.com/corpnewt/CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend) (Tool to assist in generating CPUFriendDataProvider.kext)
 7. **Network Card Related Instructions**:
    - This project only supports the replacement of Broadcom/Intel wireless network cards. The original wireless network cards of the devices do not have driver support under macOS and cannot use Wi-Fi and Bluetooth functions.
    - If you don't want to replace the built-in wireless network adapter, you can use a USB wireless network adapter directly. Most USB network adapters can be used normally on macOS without adding additional drivers (software is required).
 8. **Teaching Resources Note**: For detailed tutorials on installing Hackintosh, hardware compatibility, and tool usage, please search online for relevant tutorials. This project does not provide specific teaching services.
+9. **CPU Frequency Scaling Driver Note**: The CPU frequency modulation related drivers (CPUFriend.kext, CPUFriendDataProvider.kext) in this EFI are empty by default. You need to manually generate and add the corresponding drivers to realize the CPU's dynamic frequency modulation function and improve performance and power consumption.
 
 ## 👥 项目贡献者（Project Contributors）
 - 主维护者（Maintainer）：[[Minecraft-1314](https://github.com/Minecraft-1314)]
