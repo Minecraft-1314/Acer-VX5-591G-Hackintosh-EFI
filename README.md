@@ -94,7 +94,7 @@ Acer VX5-591G Hackintosh EFI
    - Hackintools: [https://github.com/headkaze/Hackintools](https://github.com/headkaze/Hackintools)
    - OCLP-MOD：[https://github.com/laobamac/OCLP-Mod](https://github.com/laobamac/OCLP-Mod))
    - USBToolBox: [https://github.com/USBToolBox/tool](https://github.com/USBToolBox/tool)
-   - RapidEFI: [https://github.com/topics/rapidefi](https://github.com/topics/rapidefi)
+   - RapidEFI: [https://github.com/JeoJay127/RapidEFI-Tool](https://github.com/JeoJay127/RapidEFI-Tool)
 7. **Network Card Related Instructions**:
    - This project only supports the replacement of Broadcom/Intel wireless network cards. The original wireless network cards of the devices do not have driver support under macOS and cannot use Wi-Fi and Bluetooth functions.
    - If you don't want to replace the built-in wireless network adapter, you can use a USB wireless network adapter directly. Most USB network adapters can be used normally on macOS without adding additional drivers (software is required).
