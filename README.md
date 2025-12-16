@@ -7,11 +7,11 @@
 | 系统（OS）| Windows 11 专业版 64位<br>Windows 11 Pro 64-bit |
 | CPU | Intel Core i5-7300HQ (Kaby Lake-H)<br>4核4线程 @2.50GHz |
 | 主板（Motherboard） | 品牌：KBL / 型号：Wish_KLS / 芯片组：HM175<br>Brand: KBL / Model: Wish_KLS / Chipset: HM175 |
-| 内存（RAM） | 16GB DDR4 2400MHz (Micron) |
+| 内存（RAM） | 16GB DDR4 2400MHz |
 | 硬盘（Storage） | 东芝SSD（SATA）、SSD（SATA）、闪迪USB存储、NVMe固态硬盘<br>Toshiba SSD (SATA)、SSD (SATA)、SanDisk USB、NVMe SSD |
 | 显卡（GPU） | 核显：Intel HD Graphics 630<br>独显：GTX 1050<br>iGPU: Intel HD Graphics 630<br>dGPU: GTX 1050 |
-| 网卡（Network Card） | 有线：Realtek RTL8111 PCIe GbE<br>Wi-Fi：Broadcom BCM4352 802.11ac<br>Wired: Realtek RTL8111 PCIe GbE<br>Wi-Fi: Broadcom BCM4352 802.11ac  |
-| 声卡（Audio） | Realtek ALC255（layout-id：29）<br>Realtek ALC255 (layout-id: 29) |
+| 网卡（Network Card） | 有线：Realtek RTL8111 PCIe GbE <br>Wired: Realtek RTL8111 PCIe GbE <br>Wi-Fi：Broadcom BCM4352  |
+| 声卡（Audio） | Realtek ALC255（layout-id：29)  |
 | 输入设备（Input Device） | PS/2键盘/触摸板、I2C触摸设备<br>PS/2 Keyboard/Trackpad, I2C Touch Device |
 
 ## ✅ 正常工作（Working Functions）
@@ -49,15 +49,13 @@
 
 ## ❌ 不正常工作（Non-Working Components）
 - NVIDIA GTX 1050
-<br>
-- NVIDIA GTX 1050
 
 ## ⚙️ 配置信息（Configuration Info）
 | 项目（Item） | 详情（Details） |
 |-------------|----------------|
 | OC版本（OpenCore Version） | OpenCore 1.0.6 |
 | ACPI补丁（ACPI Patches/SSDT） | 启用SSDT-XOSI.aml、SSDT-PLUG.aml、SSDT-EC.aml、SSDT-PNLF.aml；_OSI→XOSI、PNLF→XNLF重命名补丁 |
-| SMBIOS型号（PlatformInfo） | MacBookPro14,3（MLB：C02653700J9J1JHUE，Serial：C02T1TZRHTD5） |
+| SMBIOS型号（PlatformInfo） | MacBookPro14,3 |
 | NVRAM启动参数（Boot-Args） | ipc_control_port_options=0 -amfipassbeta -brcmfxbeta brcmfx-country=HK gfxrst=1 alcid=29 -wegnoegpu slide=0 kext-dev-mode=1 -wegbeta npci=0x3000 nv_disable=1 platform=ACPI serverperfmode=1 -no_compat_check igfxonln=1 igfxrpsc=1 igfxq3d=1 |
 | BIOS设置（BIOS Settings） | 安全启动：关闭；CSM：关闭；AHCI：开启<br>Secure Boot: Disabled; CSM: Disabled; AHCI: Enabled |
 | 支持的macOS系统（Supported macOS） | macOS 10.12.4 ~ 26（注：macOS 26 本EFI暂不支持） |
