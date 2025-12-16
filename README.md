@@ -1,51 +1,35 @@
-# Acer VX5-591G 黑苹果 EFI（更新版）
-（Acer VX5-591G Hackintosh EFI [Updated]）
+# Acer VX5-591G 黑苹果 EFI
+（Acer VX5-591G Hackintosh EFI）
 
 ## 📋 硬件配置（Hardware Configuration）
 | 组件（Component） | 详情（Details） |
 |------------------|----------------|
 | 系统（OS）| Windows 11 Pro 64-bit |
-| CPU | Intel Core i5-7300HQ (Kaby Lake-H)<br>4核4线程 @2.50GHz |
+| CPU | Intel Core i5-7300HQ|
 | 主板（Motherboard） | KBL / Wish_KLS / HM175 |
 | 内存（RAM） | 16GB DDR4 2400MHz |
-| 硬盘（Storage） | 东芝SSD（SATA）、SSD（SATA）、闪迪USB存储、NVMe固态硬盘<br>Toshiba SSD (SATA)、SSD (SATA)、SanDisk USB、NVMe SSD |
+| 硬盘（Storage） | 东芝SSD、SSD、NVMe固态硬盘<br>Toshiba SSD、SSD、NVMe SSD |
 | 显卡（GPU） | Intel HD Graphics 630<br>GTX 1050 |
-| 网卡（Network Card） | Realtek RTL8111 PCIe GbE <br>Broadcom BCM4352  |
-| 声卡（Audio） | Realtek ALC255（layout-id：29)  |
+| 网卡（Network Card） | Realtek RTL8111 <br>Broadcom BCM4352  |
+| 声卡（Audio） | Realtek ALC255 |
 | 输入设备（Input Device） | PS/2键盘/触摸板、I2C触摸设备<br>PS/2 Keyboard/Trackpad, I2C Touch Device |
 
 ## ✅ 正常工作（Working Functions）
 - Intel HD Graphics 630
 - Realtek ALC255
-- SATA硬盘
-- USB存储
-- NVMe固态硬盘
+- SATA硬盘 SATA Storage
+- USB存储 USB Drive
+- NVMe固态硬盘 NVMe SSD
 - CPU
-- 内存
+- 内存 RAM
 - Broadcom BCM4352 Wi-Fi
-- 蓝牙
-- Realtek有线网卡
-- USB接口
-- PS/2键盘
-- PS/2触摸板
-- I2C触摸设备
-- 亮度调节快捷键
-<br>
-- Intel HD Graphics 630
-- Realtek ALC255
-- SATA Storage
-- USB Drive
-- NVMe SSD
-- CPU
-- RAM
-- Broadcom BCM4352 Wi-Fi
-- Bluetooth
-- Realtek Wired Network Card
-- USB Ports
-- PS/2 Keyboard
-- PS/2 Trackpad
-- I2C Touch Device
-- Brightness Adjustment Hotkeys
+- 蓝牙 Bluetooth
+- Realtek有线网卡 Realtek Wired Network Card
+- USB接口 USB Ports
+- PS/2键盘 PS/2 Keyboard
+- PS/2触摸板 PS/2 Trackpad
+- I2C触摸设备 I2C Touch Device
+- 亮度调节快捷键 Brightness Adjustment Hotkeys
 
 ## ❌ 不正常工作（Non-Working Components）
 - NVIDIA GTX 1050
@@ -54,9 +38,7 @@
 | 项目（Item） | 详情（Details） |
 |-------------|----------------|
 | OC版本（OpenCore Version） | OpenCore 1.0.6 |
-| ACPI补丁（ACPI Patches/SSDT） | 启用SSDT-XOSI.aml、SSDT-PLUG.aml、SSDT-EC.aml、SSDT-PNLF.aml；_OSI→XOSI、PNLF→XNLF重命名补丁 |
 | SMBIOS型号（PlatformInfo） | MacBookPro14,3 |
-| NVRAM启动参数（Boot-Args） | ipc_control_port_options=0 -amfipassbeta -brcmfxbeta brcmfx-country=HK gfxrst=1 alcid=29 -wegnoegpu slide=0 kext-dev-mode=1 -wegbeta npci=0x3000 nv_disable=1 platform=ACPI serverperfmode=1 -no_compat_check igfxonln=1 igfxrpsc=1 igfxq3d=1 |
 | BIOS设置（BIOS Settings） | 安全启动：关闭；CSM：关闭；AHCI：开启<br>Secure Boot: Disabled; CSM: Disabled; AHCI: Enabled |
 | 支持的macOS系统（Supported macOS） | macOS 10.12.4 ~ 26（注：macOS 26 本EFI暂不支持） |
 | 最后更新时间（Last Updated） | 2025年12月16日 |
