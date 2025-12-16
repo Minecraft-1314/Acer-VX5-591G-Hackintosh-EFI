@@ -1,5 +1,5 @@
 # Acer VX5-591G 黑苹果 EFI
-（Acer VX5-591G Hackintosh EFI）
+Acer VX5-591G Hackintosh EFI
 
 ## 📋 硬件配置（Hardware Configuration）
 | 组件（Component） | 详情（Details） |
@@ -9,8 +9,8 @@
 | 主板（Motherboard） | KBL Wish_KLS HM175 |
 | 内存（RAM） | 16GB DDR4 2400MHz |
 | 硬盘（Storage） | 东芝SSD、SSD、NVMe固态硬盘<br>Toshiba SSD、SSD、NVMe SSD |
-| 显卡（GPU） | Intel HD Graphics 630<br>GTX 1050 |
-| 网卡（Network Card） | Realtek RTL8111 <br>Broadcom BCM4352  |
+| 显卡（GPU） | Intel HD Graphics 630<br>NVIDIA GTX 1050 |
+| 网卡（Network Card） | Realtek RTL8111 <br>Broadcom BCM4352（更换后的无线网卡） <br>Broadcom BCM4352 (The replaced wireless network card)  |
 | 声卡（Audio） | Realtek ALC255 |
 | 输入设备（Input Device） | PS/2键盘/触摸板、I2C触摸设备<br>PS/2 Keyboard/Trackpad, I2C Touch Device |
 
@@ -33,6 +33,7 @@
 
 ## ❌ 不正常工作（Non-Working Components）
 - NVIDIA GTX 1050
+- 原装无线网卡（无驱动支持）
 
 ## ⚠️ 未测试功能（Untested Components）
 - 电池 Battery
@@ -73,6 +74,10 @@
    - OCLP-MOD：[https://github.com/laobamac/OCLP-Mod](https://github.com/laobamac/OCLP-Mod))
    - USBToolBox：[https://github.com/USBToolBox/tool](https://github.com/USBToolBox/tool)
    - RapidEFI: [https://github.com/topics/rapidefi](https://github.com/topics/rapidefi)
+7. **网卡相关说明**：
+   - 本项目仅适配更换后的Broadcom/intel无线网卡，设备原装无线网卡在macOS系统下无驱动支持，无法使用Wi-Fi和蓝牙功能。
+   - 若不想更换内置无线网卡，可直接使用USB无线网卡，大部分USB网卡在macOS系统下无需额外添加驱动（需要软件）即可正常使用。
+8. **教学资源说明**：关于黑苹果安装、硬件适配、工具使用的详细教学内容，可自行在网上查找相关教程，本项目不提供具体教学服务。
 
 ### English
 1. **SMBIOS Information**: Please be sure to use the GenSMBIOS tool to generate and manually fill in your own SMBIOS information. The SMBIOS is empty by default. Do not use the default information directly to avoid system compatibility issues.(OCAT can generate this with one click)
@@ -90,6 +95,10 @@
    - OCLP-MOD：[https://github.com/laobamac/OCLP-Mod](https://github.com/laobamac/OCLP-Mod))
    - USBToolBox: [https://github.com/USBToolBox/tool](https://github.com/USBToolBox/tool)
    - RapidEFI: [https://github.com/topics/rapidefi](https://github.com/topics/rapidefi)
+7. **Network Card Related Instructions**:
+   - This project only supports the replacement of Broadcom/Intel wireless network cards. The original wireless network cards of the devices do not have driver support under macOS and cannot use Wi-Fi and Bluetooth functions.
+   - If you don't want to replace the built-in wireless network adapter, you can use a USB wireless network adapter directly. Most USB network adapters can be used normally on macOS without adding additional drivers (software is required).
+8. **Teaching Resources Note**: For detailed tutorials on installing Hackintosh, hardware compatibility, and tool usage, please search online for relevant tutorials. This project does not provide specific teaching services.
 
 ## 👥 项目贡献者（Project Contributors）
 - 主维护者（Maintainer）：[[Minecraft-1314](https://github.com/Minecraft-1314)]
