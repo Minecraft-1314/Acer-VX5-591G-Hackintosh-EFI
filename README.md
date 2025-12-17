@@ -33,7 +33,7 @@ Acer VX5-591G Hackintosh EFI
 
 ## ❌ 不正常工作（Non-Working Components）
 - NVIDIA GTX 1050
-- 原装无线网卡（无驱动支持）
+- 原装无线网卡（无驱动支持） Original wireless network card (no driver support)
 
 ## ⚠️ 未测试功能（Untested Components）
 - 电池 Battery
