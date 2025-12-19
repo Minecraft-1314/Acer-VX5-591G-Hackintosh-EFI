@@ -77,7 +77,7 @@ Acer VX5-591G Hackintosh EFI
    - GenSMBIOS：[https://github.com/corpnewt/GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
    - OCAT：[https://github.com/ic005k/OpenCoreAuxiliaryTools](https://github.com/ic005k/OpenCoreAuxiliaryTools)
    - Hackintools：[https://github.com/headkaze/Hackintools](https://github.com/headkaze/Hackintools)
-   - OCLP-MOD：[https://github.com/laobamac/OCLP-Mod](https://github.com/laobamac/OCLP-Mod))
+   - OCLP-MOD：[https://github.com/laobamac/OCLP-Mod](https://github.com/laobamac/OCLP-Mod)
    - USBToolBox：[https://github.com/USBToolBox/tool](https://github.com/USBToolBox/tool)
    - RapidEFI: [https://github.com/topics/rapidefi](https://github.com/topics/rapidefi)
    - CPUFriend：[https://github.com/corpnewt/CPUFriend](https://github.com/corpnewt/CPUFriend)（CPUFriend.kext及CPUFriendDataProvider.kext官方开源地址）
